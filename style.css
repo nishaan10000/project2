@@ -1,0 +1,63 @@
+/* For the welcome page */
+
+.body {
+  background-image: url("welcomebg.jpeg");
+  position: center;
+}
+
+.h1 {
+  position: absolute;
+  top: 7%;
+  left: 33%;
+
+  font-size: 100px;
+  color: red;
+}
+.a {
+  position: absolute; /* This  first three line of code is to make the text in center */
+  bottom: 22%; /*increase, moves the text upward from the bottom*/
+  left: 43%;
+  font-size: 60px;
+  color: white;
+}
+a:link {
+  text-decoration: none; /* removing the underline*/
+}
+
+/*All the other pages*/
+
+h2,
+h1,
+h3,
+h4 {
+  color: rgba(37, 1, 197, 0.918);
+  font-size: 40px;
+  text-align: center;
+  font-family: Copperplate, Papyrus, fantasy;
+  margin-top: 20px;
+  letter-spacing: 5px;
+}
+
+p,
+ul {
+  color: rgba(9, 15, 11, 0.911);
+  font-weight: 500;
+  margin: 50px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-size: 27px;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+body {
+  background: linear-gradient(rgba(60, 8, 128, 0.658), rgba(6, 180, 99, 0.596));
+}
+button {
+  background-color: #fbff00;
+  border: 1px solid rgba(247, 11, 11, 0.801);
+  color: rgb(247, 8, 8);
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
